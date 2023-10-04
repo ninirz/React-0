@@ -1,0 +1,94 @@
+:root{  --principal: #e34499;}
+
+/*GENERALES*/
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.centCont{
+    display: flex;
+    justify-content: center;
+}
+.m20{margin:20px;}
+
+/*HEADER*/
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0; 
+}
+header img {
+    width: 50px; 
+    height: 50px;
+}
+  
+.search-container {
+    margin-left: 20px; /* Ajusta el margen izquierdo del buscador según tus necesidades */
+    flex: 1; 
+}
+.search-input {
+    display: flex;
+    align-items: center;
+}
+  
+.search-input input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.search-input button {
+    margin-left: 10px; /* Ajusta el espacio entre el input y el botón según tus necesidades */
+    background-color: #007bff; /* Puedes cambiar el color del botón según tus preferencias */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor al hacer hover sobre el botón */
+    transition: background-color 0.3s; /* Agrega una transición suave al cambiar el color de fondo */
+}
+  
+.search-input button:hover {background-color: #0056b3; }
+  
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+ul li {margin-left: 20px;}
+  
+ul li a {
+    text-decoration: none;
+    color: #333; 
+    margin-right: 20px;
+}
+
+/*MAIN*/
+/*Zona barbie*/
+.barbie{
+    background-color: var(--principal);
+    width: 100%;
+    height: 50px;
+}
+
+/*Zona de filtros*/
+h2{font-family: 'Kanit', sans-serif;align-items: center;}
+
+.filtros{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.filtros img{ width: 10%; height: auto;}
+
+.color-circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
